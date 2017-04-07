@@ -23,149 +23,149 @@
 
 # Pull in puppetlabs-stdlib
 mod 'stdlib',
-    :git => 'https://github.com/fuel-infra/puppetlabs-stdlib.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-stdlib ',
     :ref => '4.9.0'
 
 # Pull in puppet-pacemaker modules
 mod 'pacemaker',
-    :git => 'https://github.com/fuel-infra/puppet-pacemaker.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-pacemaker ',
     :ref => '1.0.9'
 
 # Pull in puppetlabs-concat
 mod 'concat',
-    :git => 'https://github.com/fuel-infra/puppetlabs-concat.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-concat ',
     :ref => '1.2.3'
 
 # Pull in puppetlabs-inifile
 mod 'inifile',
-    :git => 'https://github.com/fuel-infra/puppetlabs-inifile.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-inifile ',
     :ref => '1.4.2'
 
 # Pull in puppetlabs-xinetd
 mod 'xinetd',
-    :git => 'https://github.com/fuel-infra/puppetlabs-xinetd.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-xinetd ',
     :ref => '1.5.0'
 
-# Pull in saz-ssh
-mod 'ssh',
-    :git => 'https://github.com/fuel-infra/saz-ssh.git',
+# Pull in saz-http
+mod 'http',
+    :git => 'http://git.fx-dev.com/fuel-infra/saz-ssh ',
     :ref => 'v2.8.1'
 
 # Pull in puppetlabs-ntp
 mod 'ntp',
-    :git => 'https://github.com/fuel-infra/puppetlabs-ntp.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-ntp ',
     :ref => '4.1.2'
 
 # Pull in puppetlabs-apache
 mod 'apache',
-    :git => 'https://github.com/fuel-infra/puppetlabs-apache.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-apache ',
     :ref => '1.6.0-rc1'
 
 # Pull in puppetlabs-apt
 mod 'apt',
-    :git => 'https://github.com/fuel-infra/puppetlabs-apt.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-apt ',
     :ref => '2.2.0'
 
 # Pull in puppetlabs-firewall
 mod 'firewall',
-    :git => 'https://github.com/fuel-infra/puppetlabs-firewall.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-firewall ',
     :ref => '1.8.0-mos-rc1'
 
 # Pull in saz-memcached
 mod 'memcached',
-    :git => 'https://github.com/fuel-infra/puppet-memcached.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-memcached ',
     :ref => 'v2.5.0'
 
 # Pull in duritong-sysctl
 mod 'sysctl',
-    :git => 'https://github.com/fuel-infra/puppet-sysctl.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-sysctl ',
     :ref => 'v0.0.11'
 
 # Pull in nanliu-staging
 mod 'staging',
-    :git => 'https://github.com/fuel-infra/puppet-staging.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-staging ',
     :ref => '1.0.4'
 
 # Pull in puppetlabs-vcsrepo
 mod 'vcsrepo',
-    :git => 'https://github.com/fuel-infra/puppetlabs-vcsrepo.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-vcsrepo ',
     :ref => '1.3.1'
 
 # Pull in puppetlabs-postgresql
 mod 'postgresql',
-    :git => 'https://github.com/fuel-infra/puppetlabs-postgresql.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-postgresql ',
     :ref => '4.0.0'
 
 # Pull in saz-rsyslog
 mod 'rsyslog',
-    :git => 'https://github.com/fuel-infra/puppet-rsyslog.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-rsyslog ',
     :ref => 'v3.5.1'
 
 # Pull in puppet-openssl
 mod 'openssl',
-    :git => 'https://github.com/fuel-infra/puppet-openssl.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-openssl ',
     :ref => '1.3.10-mos-rc2'
 
 # Pull in puppetlabs-mongodb
 mod 'mongodb',
-    :git => 'https://github.com/fuel-infra/puppetlabs-mongodb.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-mongodb ',
     :ref => '0.12.0'
 
 # Pull in puppetlabs-rsync
 mod 'rsync',
-    :git => 'https://github.com/fuel-infra/puppetlabs-rsync.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-rsync ',
     :ref => '0.4.0-mos-rc1'
 
 # Pull in puppet-filemapper
 mod 'filemapper',
-    :git => 'https://github.com/fuel-infra/puppet-filemapper.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-filemapper ',
     :ref => '1.1.3-mos-rc1'
 
 # Pull in puppetlabs-tftp
 mod 'tftp',
-    :git => 'https://github.com/fuel-infra/puppetlabs-tftp.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-tftp ',
     :ref => '0.2.3'
 
 # Pull in richardc-datacat
 mod 'datacat',
-    :git => 'https://github.com/fuel-infra/richardc-datacat.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/richardc-datacat ',
     :ref => '0.5.0'
 
 # Pull in puppet-mcollective
 mod 'mcollective',
-    :git => 'https://github.com/fuel-infra/puppet-mcollective.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-mcollective ',
     :ref => 'v2.1.1'
 
 # Pull in puppet-corosync
 # FIXME(bogdando) We need the 0.8.0-29201ff. Use the 0.9.0 once released.
 mod 'corosync',
-    :git => 'https://github.com/fuel-infra/puppet-corosync.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-corosync ',
     :ref => '0.8.0-mos-rc3'
 
 # Pull in puppetlabs-rabbitmq
 # FIXME(bogdando) We need the 5.3.1-dc0964d. Use the 5.3.2 once released.
 mod 'rabbitmq',
-    :git => 'https://github.com/fuel-infra/puppetlabs-rabbitmq.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-rabbitmq ',
     :ref => '5.3.1-mos-rc3'
 
 # Pull in puppetlabs-mysql
 # FIXME(mmalchuk) 498b085 (3.6.3-rc1) is a fix for the 3.6.x branch
 #                 61619f6 is the same fix on the master (should be in 3.7.1)
 mod 'mysql',
-    :git => 'https://github.com/fuel-infra/puppetlabs-mysql.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppetlabs-mysql ',
     :ref => '3.6.3-rc1'
 
 # Pull in michaeltchapman-galera
 mod 'galera',
-    :git => 'https://github.com/fuel-infra/puppet-galera.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-galera ',
     :ref => '0.0.3-rc1'
 
 # Pull in puppet-vswitch
 mod 'vswitch',
-    :git => 'https://github.com/fuel-infra/puppet-vswitch.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-vswitch ',
     :ref => '6.0.0'
 
 # Pull in saz-limits
 mod 'limits',
-    :git => 'https://github.com/fuel-infra/puppet-limits.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-limits ',
     :ref => 'v2.5.0'

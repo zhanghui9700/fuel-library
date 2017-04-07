@@ -23,70 +23,70 @@
 
 # Pull in puppet-aodh
 mod 'aodh',
-    :git => 'https://github.com/fuel-infra/puppet-aodh.git',
-    :ref => 'daa97a02f8d936cbbe4d8c00d24015c7f0b4cd8c'
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-aodh ',
+    :ref => 'origin/stable/mitaka'
 
 # Pull in puppet-ceilometer
 mod 'ceilometer',
-    :git => 'https://github.com/fuel-infra/puppet-ceilometer.git',
-    :ref => '1bcac4e50abad3381046accf80986eb5aed453d1'
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-ceilometer ',
+    :ref => 'origin/stable/mitaka'
 
 # Pull in openstack-cinder
 mod 'cinder',
-    :git => 'https://github.com/fuel-infra/openstack-cinder.git',
-    :ref => '72ef0ce90cfc828a9f0202a2c9970a15417ec4b5'
+    :git => 'http://git.fx-dev.com/fuel-infra/openstack-cinder ',
+    :ref => 'origin/stable/mitaka'
 
 # Pull in puppet-glance
 mod 'glance',
-    :git => 'https://github.com/fuel-infra/puppet-glance.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-glance ',
     :ref => '8.2.0'
 
 # Pull in puppet-heat
 mod 'heat',
-    :git => 'https://github.com/fuel-infra/puppet-heat.git',
-    :ref => '0cb78122a2583517687d23ef1916f2ad96f75bef'
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-heat ',
+    :ref => 'origin/stable/mitaka'
 
 # Pull in puppet-horizon
 mod 'horizon',
-    :git => 'https://github.com/fuel-infra/puppet-horizon.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-horizon ',
     :ref => '8.2.0'
 
 # Pull in puppet-ironic
 mod 'ironic',
-    :git => 'https://github.com/fuel-infra/puppet-ironic.git',
-    :ref => '754badddd4f00a223f73616476105287497253f4'
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-ironic ',
+    :ref => 'origin/stable/mitaka'
 
 # Pull in puppet-keystone
 mod 'keystone',
-    :git => 'https://github.com/fuel-infra/puppet-keystone.git',
-    :ref => 'ef97f0a157c9ae4734df66c6ec305749eba78ffc'
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-keystone ',
+    :ref => 'origin/stable/mitaka'
 
 # Pull in puppet-openstacklib
 mod 'openstacklib',
-    :git => 'https://github.com/fuel-infra/puppet-openstacklib.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-openstacklib ',
     :ref => '8.2.0'
 
 # Pull in puppet-neutron
 mod 'neutron',
-    :git => 'https://github.com/fuel-infra/puppet-neutron.git',
-    :ref => '23c641845979d65ed86a6875878930ccea7b80f6'
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-neutron ',
+    :ref => 'origin/stable/mitaka'
 
 # Pull in puppet-nova
 mod 'nova',
-    :git => 'https://github.com/fuel-infra/puppet-nova.git',
-    :ref => '68edbded93de36c6607b20223ef24bc19955168c'
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-nova ',
+    :ref => 'origin/stable/mitaka'
 
 # Pull in puppet-murano
 mod 'murano',
-    :git => 'https://github.com/fuel-infra/puppet-murano.git',
-    :ref => 'e2cf11681eebdc8cbdae71ccecf8b37f9a0ac15a'
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-murano ',
+    :ref => 'origin/stable/mitaka'
 
 # Pull in puppet-sahara
 mod 'sahara',
-    :git => 'https://github.com/fuel-infra/puppet-sahara.git',
-    :ref => 'd3e0933af77de7dbfe8302840eb04bb9d31b7f97'
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-sahara ',
+    :ref => 'origin/stable/mitaka'
 
 # Pull in puppet-swift
 mod 'swift',
-    :git => 'https://github.com/fuel-infra/puppet-swift.git',
+    :git => 'http://git.fx-dev.com/fuel-infra/puppet-swift ',
     :ref => '8.2.0'
